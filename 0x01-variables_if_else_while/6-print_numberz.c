@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - main block entry point.
  * Description: this function prints numbers from 0 to 9 in chars.
  * you are only allowed to use putchar().
