@@ -1,6 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * positive_or_negative - this function checks if + or -
+ * @i: this is to  be checked
+ * Return: Void no retirn
+ */
+
 void positive_or_negative(int i)
 {
 	if (i > 0)
