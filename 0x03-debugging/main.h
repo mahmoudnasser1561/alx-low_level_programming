@@ -5,7 +5,7 @@
 
 void positive_or_negative(int i);
 int largest_number(int a, int b, int c);
-int convert_number(int a, int b, int c);
-void convert_day(int month, int day);
+int convert_day(int a, int b, int c);
+void print_remainig_days(int month, int day, int year);
 
 #endif /* MAIN_H */
