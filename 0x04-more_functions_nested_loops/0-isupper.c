@@ -1,17 +1,21 @@
+/*
+ * File: 0-isupper.c
+ * Auth: Suara Ayomide
+ */
+
 #include "main.h"
 
 /**
- * _isupper - check if a letter is upper or not
- * @c: the letter to be checked
- * Return: 1 for upper letter and 0 for any else
+ * _isupper - Checks for uppercase characters.
+ * @c: The character to be checked.
+ *
+ * Return: 1 if character is uppercase, 0 otherwise.
  */
-
-int _isupper (int c)
+int _isupper(int c)
 {
-	if (x >= 65 && x <= 90)
-	{
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-	}
+
 	else
 		return (0);
 }
