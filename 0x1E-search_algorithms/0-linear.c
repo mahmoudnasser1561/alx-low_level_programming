@@ -2,14 +2,14 @@
 
 /**
  * linear_search - searches for a value in an array of
- * integrs using the linear search algorithm
+ * integers using the Linear search algorithm
  *
  * @array: input array
  * @size: size of the array
- * @value to search for
- * Return: always EXIT_SUCCESS
+ * @value: value to search in
+ * Return: Always EXIT_SUCCESS
  */
-int linear_search(int *array, size_t  size, int value)
+int linear_search(int *array, size_t size, int value)
 {
 	int i;
 
